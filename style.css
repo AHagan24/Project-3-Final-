@@ -235,6 +235,7 @@ nav__link:after {
   border: none;
   display: none;
   transition: all 300ms ease;
+  transform: scale(1.5);
 }
 
 .btn__menu--svg:hover {
@@ -870,7 +871,8 @@ PRICING
 .plan:nth-child(2) {
   background: linear-gradient(
     135deg,
-    rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
   );
 }
 
@@ -918,7 +920,7 @@ PRICING
   border-bottom: 2px solid rgb(102, 126, 234);
 }
 
-.plan__blob {
+.plans__blob {
   z-index: -10;
   position: absolute;
   left: 0;
@@ -948,7 +950,6 @@ section #testimonials {
 }
 
 #testimonials .container {
-  padding: 6rem;
   padding-bottom: 6rem;
 }
 
